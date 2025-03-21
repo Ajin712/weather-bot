@@ -50,5 +50,5 @@ async def on_message(message):
     if message.content == "날씨":
         await message.channel.send("오늘의 날씨는 {}입니다.".format(get_weather(API_KEY, CITY)))
 
-client.run('DISCORD_BOT_TOKEN')
+client.run(os.getenv('DISCORD_BOT_TOKEN'))
 ﻿
