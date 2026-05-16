@@ -29,7 +29,7 @@ def get_weather(api_key, city):
     else:
         return None
 
-API_KEY = "48538c03b6bb2ec8fe75ebeee2fc3e31"  #OpenWeatherMap API
+API_KEY = ""  #OpenWeatherMap API
 CITY = "Seoul"
 
 intents = discord.Intents.all()
